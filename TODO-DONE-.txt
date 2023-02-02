@@ -1,16 +1,22 @@
 ===================== TODO ===================== 
 - Page: LandingPage.jsx
 - Page:
-- Page: DashboardPage.jsx
 - Page: ProfilePage.jsx
 
 - Component: Footer.jsx
 
 - BACKEND SYSTEM
-===================== POSPONED =================
-- Component: Navbar.jsx
+
+================= ON PROGRESS ==================
+- Page: DashboardPage.jsx
 
 
 ===================== DONE =====================
 - Page: LoginPage.jsx
+================================================
 
+
+xxxxxxxxxxxxxxxxxxx POSPONED xxxxxxxxxxxxxxxxxxx
+- Component: Navbar.jsx
+- Component: Carousel.jsx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
