@@ -10,4 +10,4 @@ const DashboardPage = () => {
     )
 }
 
-export default 
+export default DashboardPage;

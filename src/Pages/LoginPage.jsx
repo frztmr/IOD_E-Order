@@ -19,7 +19,7 @@ const LoginPage = () => {
 
     const [userID, setUserID] = React.useState('');
     const [password, setPassword] = React.useState('');
-    const [visible, setVisible] = React.useState('password')
+    const [visible, setVisible] = React.useState('password');
 
     const onVisibility = () => {
         if (visible == "password") {
@@ -30,6 +30,7 @@ const LoginPage = () => {
         }
     }
 
+    
     console.log(`from UserID:${userID}`);
     console.log(`from Password:${password}`);
 
@@ -41,21 +42,21 @@ const LoginPage = () => {
                     <div className="row" >
                         <div className="col-12 col-sm-6 m-auto p-5 ">
 
-                            <Text className="d-flex text-muted fw-bold"
+                            <Text className="d-flex justify-content-end text-muted fw-bold"
                                 fontSize="xl">
                                 Welcome To
                             </Text>
 
                             <div className="">
                                 <Text as='i'
-                                    className="d-flex text-primary fw-bold"
+                                    className="d-flex justify-content-end text-primary fw-bold"
                                     fontSize="3xl"
                                 >
                                     Indofood
                                     <span>
                                         <Text
                                             as='i'
-                                            className="d-flex text-danger fw-bold "
+                                            className="d-flex justify-content-end text-danger fw-bold "
                                         >
                                             CBP
                                         </Text>
@@ -66,13 +67,13 @@ const LoginPage = () => {
 
                             <Heading
                                 fontSize="6xl"
-                                className="d-flex"
+                                className="d-flex justify-content-end"
                             >
                                 E-Order
                             </Heading>
                             <Text
                                 fontSize='xl'
-                                className="d-flex text-muted"
+                                className="d-flex justify-content-end text-muted"
                             >
                                 Easy-Order
                             </Text>
