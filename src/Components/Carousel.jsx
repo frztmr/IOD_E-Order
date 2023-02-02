@@ -4,16 +4,16 @@ import React from "react";
 const Carousel = () => {
 
 
-    const [index, setIndex] = React.setState('');
+    // const [index, setIndex] = React.setState('');
 
-    const handleSelect = (selectedIndex, e) => {
-        setIndex(selectedIndex);
-    }
+    // const handleSelect = (selectedIndex, e) => {
+    //     setIndex(selectedIndex);
+    // }
 
     return (
 
         <div className="container">
-            <Carousel activeIndex={index} onSelect={handleSelect}>
+            {/* <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
@@ -51,7 +51,7 @@ const Carousel = () => {
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
-            </Carousel>
+            </Carousel> */}
         </div>
     )
 }

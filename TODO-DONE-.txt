@@ -1,13 +1,14 @@
 ===================== TODO ===================== 
 - Page: LandingPage.jsx
-- Page: LoginPage.jsx
+- Page:
 - Page: DashboardPage.jsx
 - Page: ProfilePage.jsx
 
-- Component: Navbar.jsx
 - Component: Footer.jsx
 
 - BACKEND SYSTEM
+===================== POSPONED =================
+- Component: Navbar.jsx
 
 
 ===================== DONE =====================
